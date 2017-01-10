@@ -300,6 +300,7 @@ void SCR_BurnLetter(char letter, char * array)
     {
        printf("\nBurn card %c  ", letter);
        SCR_DealCards(&array[i], piese, 1, &scrCtx.used, sizeof(piese));
+       return ;
     }
   }
 }
